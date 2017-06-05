@@ -1,3 +1,5 @@
+#! usr/bin/env python
+
 def pricefinder(text):
     import re
     re_object = re.compile(r'<span class=\"a-size-medium a-color-price" id=\"priceblock_ourprice\">\$[0-9.,]*')
