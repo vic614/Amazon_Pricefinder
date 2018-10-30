@@ -79,5 +79,6 @@ def main():
             worksheet.write(row,3,'')
             row += 1
     workbook.close()
-    
-main()
+
+if __name__ == "__main__":
+    main()
